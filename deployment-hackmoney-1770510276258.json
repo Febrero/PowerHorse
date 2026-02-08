@@ -1,0 +1,8 @@
+{
+  "network": "sepolia",
+  "timestamp": "2026-02-08T00:24:08.878Z",
+  "deployer": "0x3a347b9762B80731fF98f10600F3f3AaD6361cc9",
+  "yellowAdapter": "0xE245E2b3311BA5C37F15Ff433B27628ecDB7D08C",
+  "horseAgent": "0x7582aeb0b4D1e7294f93eB1e97b26059b61CD2a4",
+  "lifiDepositor": "0x57EF4DD0B06199F75d43d703E4Aa49A071293D62"
+}

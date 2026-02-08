@@ -1,0 +1,30 @@
+{
+  "name": "power-horse-hackmoney-2026",
+  "version": "1.0.0",
+  "description": "POWER.HORSE HackMoney 2026 Integration Contracts",
+  "scripts": {
+    "deploy": "hardhat run deploy-all.js --network sepolia",
+    "deploy:yellow": "hardhat run deploy-yellow.js --network sepolia",
+    "deploy:agent": "hardhat run deploy-agent.js --network sepolia",
+    "deploy:lifi": "hardhat run deploy-lifi.js --network sepolia",
+    "config": "hardhat run post-deploy.js --network sepolia",
+    "config:yellow": "hardhat run config-yellow.js --network sepolia",
+    "config:agent": "hardhat run config-agent.js --network sepolia",
+    "test:yellow": "hardhat run test-yellow.js --network sepolia",
+    "test:agent": "hardhat run test-agent.js --network sepolia",
+    "test:lifi": "hardhat run test-lifi.js --network sepolia",
+    "verify:all": "echo 'Run verification commands from deployment output'",
+    "test": "hardhat test"
+  },
+  "keywords": ["blockchain", "defi", "horses", "hackmoney", "yellow-network", "arc-network", "lifi"],
+  "author": "POWER.HORSE Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1",
+    "dotenv": "^16.3.1"
+  }
+}
